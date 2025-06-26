@@ -1,6 +1,10 @@
+import Navbar from "../../components/Navbar/Navbar";
+
 const Dashboard = () => {
   return (
-    <div className="text-3xl text-primary font-bold underline">Dashboard</div>
+    <div>
+      <Navbar />
+    </div>
   );
 };
 
