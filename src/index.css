@@ -6,6 +6,6 @@
 
 @layer base {
   body {
-    @apply font-outfit;
+    @apply font-outfit bg-blue-950;
   }
 }
