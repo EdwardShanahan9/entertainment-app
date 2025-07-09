@@ -7,10 +7,10 @@ import AvaterIcon from "../../assets/image-avatar.png";
 
 const Navbar = () => {
   return (
-    <nav className="bg-blue-900 p-4 flex items-center justify-between">
+    <nav className="bg-blue-900 p-4 flex items-center justify-between lg:flex-col w-[96px] h-screen">
       <img className="w-[25px] h-[20px]" src={LogoIcon} alt="Logo" />
 
-      <ul className="flex items-center">
+      <ul className="flex items-center lg:flex-col">
         <li>
           <a href="#">
             <img className="w-4 h-4 mr-6" src={HomeIcon} alt="Home Icon" />
